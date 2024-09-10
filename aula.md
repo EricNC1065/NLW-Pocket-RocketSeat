@@ -12,3 +12,5 @@ Constantes
 # Operadores
 
 Operadores de atribuição de valor (=)
+
+Operador de concatenação (+)
