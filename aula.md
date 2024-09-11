@@ -14,3 +14,9 @@ Constantes
 Operadores de atribuição de valor (=)
 
 Operador de concatenação (+)
+
+#  Estrutura de repetição
+- [x] while
+
+# Condicionais
+- [x] switch
