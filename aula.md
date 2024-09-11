@@ -11,9 +11,11 @@ Constantes
 
 # Operadores
 
-Operadores de atribuição de valor (=)
+- [x] Operadores de atribuição de valor (=)
 
-Operador de concatenação (+)
+- [x] Operador de concatenação (+)
+
+- [x] Operador de comparação
 
 #  Estrutura de repetição
 
@@ -22,6 +24,7 @@ Operador de concatenação (+)
 # Condicionais
 
 - [x] switch
+- [x] if/else
 
 ## módulos em nodejs:
 
