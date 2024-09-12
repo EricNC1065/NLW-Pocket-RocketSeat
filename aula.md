@@ -1,13 +1,19 @@
 # Fases da resolução de um problema
 
-Coletar os dados
-Processaros dados (manipular, alter...)
-Apresentar os dados 
+- Coletar os dados
+- Processaros dados (manipular, alter...)
+- Apresentar os dados 
 
 # Escopos e variaveis
 
-Variaveis globais e locais
-Constantes
+- [x] Variaveis globais e locais
+- [x] Constantes
+
+## Estruturas de dados:
+
+### Arrays:
+- [x] Uma lista que contem qualquer tipo de dados
+- [x] Metodos de um array: push, find e forEach e filter: HOF (Higher Order Function)
 
 # Operadores
 
