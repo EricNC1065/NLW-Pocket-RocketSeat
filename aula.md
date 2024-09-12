@@ -36,6 +36,13 @@
 
 - [x] importação de módulos(inquirer/commonJS)
 - [x] Biblioteca 'inquirer' para criar prompts interativos
+- [x] fs(File System)
+
+## JSON
+
+- [x] Javascript Object Notation
+- [x] JSON.parse() : transforma de JSON para js 
+- [x] JSON.stringify() : transforma de js para JSON
 
 ## Programação assincrona e promisses: 
 
