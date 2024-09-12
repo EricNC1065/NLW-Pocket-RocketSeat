@@ -89,6 +89,33 @@ const metasAbertas = async ()  => {
 
 }
 
+const deletarMetas = async () => {
+
+    const metasDesmarcadas = metas.map((meta) => {
+        return { value: meta.value, checked: false}
+    })
+
+    const itemADeletar = await checkbox({
+        message: "Selecione a meta a deletar",
+        choices: [...metasDesmarcadas],
+        instructions: false,
+
+    })
+
+    if(itemADeletar.length == 0){
+        console.log("Nenhum item para deletar")
+        return
+    }
+
+    itemADeletar.forEach((item) =>{
+        metas = metas.filter((meta) => {
+            return meta.value != value
+        })
+
+    })
+
+
+}
 
 const start = async () =>{
     
@@ -119,6 +146,11 @@ const start = async () =>{
                 },
 
                 {
+                    name: "Deletar metas",
+                    value: "deletar"
+                },
+
+                {
                     name: "Sair",
                     value:"sair"
                 }
@@ -130,6 +162,7 @@ const start = async () =>{
                 await cadastrarMeta()
                 console.log(metas)
                 break
+
             case "listar":
                 await listarMetas()
                 break
@@ -137,9 +170,15 @@ const start = async () =>{
             case "realizadas":
                 await metasRealizadas()
                 break
+
             case "abertas":
                 await metasAbertas()
                 break
+
+            case "deletar":
+                await deletarMetas()
+                break
+
             case "sair":
             console.log("Ate a proxima")
                 return        
